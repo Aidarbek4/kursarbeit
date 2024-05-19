@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+
+.header{
+    background-color: $main-color;
+
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+
+    .logo{
+        font-family: $Open-Sans;
+        color: $white;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .navbar{
+        &__list{
+            display: flex;
+            align-items: center;
+        }
+        &__item{
+            margin-left: 25px;
+        }
+        &__link{
+            font-size: 18px;
+            font-family: $Source-Sans, sans-serif;
+            font-weight: bold;
+            color: $white;
+        }
+    }
+}
